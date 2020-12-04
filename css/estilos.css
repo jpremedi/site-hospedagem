@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    font-family: arial;
+    color: white;
+}
+
+body {
+    background: url(../images/fundo.jpg);
+    background-size: cover;
+}
+
+.conteudo-principal {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.titulo {
+    font-size: 55px;
+    margin-top: 15%;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu img {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.menu ul {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 15px;
+    font-size: 20;
+}
+
+.menu a:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    padding: 6px 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+    background: white;
+}
+
+.video {
+    text-decoration: none;
+    border: 1px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.leia-mais {
+    text-decoration: none;
+    border: 1px;
+    padding: 10px 15px;
+    color: white;
+}
+
